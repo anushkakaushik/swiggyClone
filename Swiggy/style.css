@@ -1,0 +1,200 @@
+body{
+    margin: 0;
+    padding: 0;
+font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.button_{
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#sign_{
+    width: 120px;
+    height:40px ;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+}
+#log{
+    background-color: white;
+    border: none;
+}
+#log:hover{
+    color: orange;
+
+}
+#input_ {
+width: 620px;
+height: 60px;
+border: 1px solid gray;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+input{
+    border: none;
+    width: 430px;
+    height: 50px;
+}
+#loc{
+    height: 40px;
+    width: 90px;
+    border: none;
+width: 90px;
+background-color: white;
+}
+#find_f{
+    width: 85px;
+    height: 59.3px;
+    border: none;
+    
+    background-color: #fc8112;
+}
+input:focus{
+    /* border: 1px solid blue; */
+    outline: none;
+}
+.black_ , .grey_{
+    text-decoration: none;
+font-weight: bold;
+}
+.black_{
+    color:black;
+    font-weight: bold;
+}
+.grey_{
+    color: gray;
+}
+#login_img{
+    background-image: url('https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Lunch1_vlksgq');
+    height: 609px;
+    width: 679px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#login_comp{
+    display: flex;
+    /* gap: 10px; */
+    /* border: 2px solid green; */
+    /* height: 600px; */
+    column-gap: 10px;
+
+}
+#login_{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+padding: 80px 108px 0;
+
+height: 529px;
+}
+#stack{
+    border: 2px solid black;
+    width: 1519.2;
+    height: 402px;
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+}
+.cards_{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #e0cbc1;
+}
+.cards_  h3{
+    color: white;
+}
+.cards_ img{
+    width: 105px;
+    height:199px ;
+}
+.cards_ span{
+    width: 300px;
+    text-align: center;
+    font-size: 14px;
+}
+#rest_{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont{
+    width: 40%;
+    justify-content: space-around;
+    height: 296px;
+    flex-direction: column;
+    padding-top: 20px;
+    margin-left: 151px;
+
+}
+.is{
+    display: flex;
+    /* flex-direction: column; */
+    /* border: 2px solid green; */
+/* width: 60%; */
+}
+.is img{
+    height: 489px;
+    width: 384px; ;
+}
+footer li{
+    list-style: none;
+    text-decoration: none;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: gray;
+}
+#line4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#line4 img{
+    width: 160px;
+    height: 54px;
+    border: 1px solid gray;
+    border-radius: 15px;
+transition: 1s;
+}
+#line4 img:hover{
+    transform: scale(1.1);
+}
+
+/* animation  */
+ #main_heading::before{
+    content: "";
+    animation: animate 16s linear;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes animate {
+  
+    0% {
+        content: "Unexpected guests?";
+    }
+    50%{
+        content: "Hungry?";
+    }
+
+    75% {
+        content: "Cooking gone Wrong?";
+    }
+
+    100% {
+        content: "Late night at office?";
+    }
+}
